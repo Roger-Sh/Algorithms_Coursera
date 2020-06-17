@@ -1,4 +1,4 @@
-package Week1_UnionFind.QuickFindUF;
+package Week1.QuickFindUF;
 
 public class QuickFindUF {
     private int[] id;

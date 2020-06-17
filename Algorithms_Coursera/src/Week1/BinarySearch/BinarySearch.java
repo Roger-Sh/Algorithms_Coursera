@@ -1,4 +1,4 @@
-package Week1_UnionFind.BinarySearch;
+package Week1.BinarySearch;
 
 public class BinarySearch {
     public static int binarySearch(int[] a, int key) {

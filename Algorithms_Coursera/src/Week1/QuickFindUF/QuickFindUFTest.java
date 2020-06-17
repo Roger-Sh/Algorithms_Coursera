@@ -1,4 +1,4 @@
-package Week1_UnionFind.QuickFindUF;
+package Week1.QuickFindUF;
 
 public class QuickFindUFTest {
     public static void main(String[] args) {
