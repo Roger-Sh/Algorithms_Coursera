@@ -1,4 +1,4 @@
-package Week2.Iterators;
+package Week2.Iterator;
 
 /*
         this two interface should be implemented to make a structure iterable

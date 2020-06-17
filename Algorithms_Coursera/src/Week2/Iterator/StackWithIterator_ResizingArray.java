@@ -1,4 +1,4 @@
-package Week2.Iterators;
+package Week2.Iterator;
 
 public class StackWithIterator_ResizingArray<Item> implements Iterable<Item> {
 
