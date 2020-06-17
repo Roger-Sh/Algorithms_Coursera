@@ -2,14 +2,14 @@ package Week2.Stack;
 
 /*
 stack of strings
-FIFO
+LIFO
 
  */
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class StackOfStrings {
+public class StackOfStrings_LinkedList {
 
     // init first Node = null
     private Node first = null;
@@ -44,7 +44,7 @@ public class StackOfStrings {
 
     public static void main(String[] args) {
 
-        StackOfStrings stack = new StackOfStrings();
+        StackOfStrings_LinkedList stack = new StackOfStrings_LinkedList();
 
         while (!StdIn.isEmpty()) {
             String s = StdIn.readString();
