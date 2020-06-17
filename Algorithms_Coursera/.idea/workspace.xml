@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eeb675b-4f05-47ba-b756-8bc476e68aaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Week2/Queue/QueueOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/Stack/StackOfStrings_Resizing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Queue/QueueOfStringsLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Stack/StackOfStrings_FixedCapacity_Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Stack/StackOfStrings_LinkedList_Generic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/Stack/FixedCapacityStackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Stack/StackOfStrings_FixedCapacity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/Stack/StackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Stack/StackOfStrings_LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Queue/QueueOfStrings.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +28,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Week2.Stack" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -40,11 +45,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Week2.Stack.StackOfStrings_Resizing">
+  <component name="RunManager" selected="Application.Week2.Stack.StackOfStrings_FixedCapacity_Generic">
     <configuration name="Week1_UnionFind.ThreeSum.ThreeSum" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Week1_UnionFind.ThreeSum.ThreeSum" />
       <module name="Algorithms_Coursera" />
       <option name="PROGRAM_PARAMETERS" value="IntNumbers.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week2.Queue.QueueOfStrings" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week2.Queue.QueueOfStringsLinkedList" />
+      <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
     <configuration name="Week2.StackOfStrings.FixedCapacityStackOfStrings" type="Application" factoryName="Application">
@@ -54,6 +64,16 @@
     </configuration>
     <configuration name="Week2.StackOfStrings.StackOfStrings" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Week2.Stack.StackOfStrings_LinkedList" />
+      <module name="Algorithms_Coursera" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week2.Stack.StackOfStrings_FixedCapacity_Generic" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week2.Generic.StackOfStrings_FixedCapacity_Generic" />
+      <module name="Algorithms_Coursera" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week2.Stack.StackOfStrings_LinkedList_Generic" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week2.Generic.StackOfStrings_LinkedList_Generic" />
       <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
