@@ -4,6 +4,7 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 public class StackOfStrings_FixedCapacityArray_Generic<Item> {
+    // init array refer
     private Item[] s;
     private int N = 0;      // current index
 

@@ -1,4 +1,4 @@
-package Week2.Stack;
+package Week2.Generic;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
@@ -15,19 +15,20 @@ Resizing-array, when out of capacity, double the size and copy the old data
 
  */
 
-public class StackOfStrings_Resizing {
-    private String[] s;
+public class StackOfStrings_ResizingArray_Generic<Item> {
+    // init array
+    private Item[] s;
     private int N = 0;      // current index
 
-    public StackOfStrings_Resizing() {
-        s = new String[1];
+    public StackOfStrings_ResizingArray_Generic() {
+        s = (Item[]) new Object[1];
     }
 
     public boolean isEmpty() {
         return N == 0;
     }
 
-    public void push(String item) {
+    public void push(Item item) {
         // if more item then array length, double the size
         // a lot of waste capacity?
         if (N == s.length) {
@@ -39,14 +40,14 @@ public class StackOfStrings_Resizing {
         s[N++] = item;
     }
 
-    public String pop() {
+    public Item pop() {
         return s[--N];
     }
 
     private void resize(int capacity) {
-        String[] copy = new String[capacity];
+        Item[] copy = (Item[]) new Object[capacity];
 
-        // wenn double the size,
+        // double the size,
         for (int i = 0; i < N; i++) {
             copy[i] = s[i];
         }
@@ -54,7 +55,7 @@ public class StackOfStrings_Resizing {
     }
 
     public static void main(String[] args) {
-        StackOfStrings_Resizing stack = new StackOfStrings_Resizing();
+        StackOfStrings_ResizingArray_Generic stack = new StackOfStrings_ResizingArray_Generic();
 
         while (!StdIn.isEmpty()) {
             String s = StdIn.readString();

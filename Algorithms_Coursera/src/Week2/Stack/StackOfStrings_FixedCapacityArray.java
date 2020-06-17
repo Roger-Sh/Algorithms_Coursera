@@ -3,11 +3,11 @@ package Week2.Stack;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class StackOfStrings_FixedCapacity {
+public class StackOfStrings_FixedCapacityArray {
     private String[] s;
     private int N = 0;      // current index
 
-    public StackOfStrings_FixedCapacity(int capacity) {
+    public StackOfStrings_FixedCapacityArray(int capacity) {
         s = new String[capacity];
     }
 
@@ -24,7 +24,7 @@ public class StackOfStrings_FixedCapacity {
     }
 
     public static void main(String[] args) {
-        StackOfStrings_FixedCapacity stack = new StackOfStrings_FixedCapacity(10);
+        StackOfStrings_FixedCapacityArray stack = new StackOfStrings_FixedCapacityArray(10);
 
         while (!StdIn.isEmpty()) {
             String s = StdIn.readString();

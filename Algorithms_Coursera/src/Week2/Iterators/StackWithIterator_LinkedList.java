@@ -10,7 +10,7 @@ Iterator
  */
 
 
-public class StackWithIterator<Item> implements Iterable<Item> {
+public class StackWithIterator_LinkedList<Item> implements Iterable<Item> {
 
     /*
             stack with linked list
@@ -87,7 +87,7 @@ public class StackWithIterator<Item> implements Iterable<Item> {
     }
 
     public static void main(String[] args) {
-        StackWithIterator<Integer> stackInt = new StackWithIterator<>();
+        StackWithIterator_LinkedList<Integer> stackInt = new StackWithIterator_LinkedList<>();
 
         for (int i = 0; i < 10; i++) {
             stackInt.push(i * 10);
@@ -104,21 +104,4 @@ public class StackWithIterator<Item> implements Iterable<Item> {
 
 
 
-/*
-        this two interface should be implemented to make a structure iterable
- */
 
-// generate a iterator
-interface Iterable<Item> {
-    Iterator<Item> iterator();
-}
-
-
-// iterator contains hasNext() and next()
-interface Iterator<Item> {
-    boolean hasNext();
-
-    Item next();
-
-    // void remove();
-}
