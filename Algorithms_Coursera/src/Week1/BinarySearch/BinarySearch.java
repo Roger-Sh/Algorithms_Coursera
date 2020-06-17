@@ -1,5 +1,10 @@
 package Week1.BinarySearch;
 
+/*
+Binary search
+ compare with the middle of high boundary and low boundary
+ */
+
 public class BinarySearch {
     public static int binarySearch(int[] a, int key) {
         int lo = 0, hi = a.length - 1;
