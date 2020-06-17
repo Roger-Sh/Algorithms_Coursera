@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3eeb675b-4f05-47ba-b756-8bc476e68aaf" name="Default Changelist" comment="" />
+    <list default="true" id="3eeb675b-4f05-47ba-b756-8bc476e68aaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Week2/Iterators/Iterators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/BinarySearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/BinarySearch/BinarySearch.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +28,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Week2.Iterators" />
       <recent name="Week2.Generic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -44,7 +49,7 @@
   </component>
   <component name="RunManager" selected="Application.Week2.Stack.StackOfStrings_FixedCapacity_Generic">
     <configuration name="Week1_UnionFind.ThreeSum.ThreeSum" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Week1_UnionFind.ThreeSum.ThreeSum" />
+      <option name="MAIN_CLASS_NAME" value="Week1.ThreeSum.ThreeSum" />
       <module name="Algorithms_Coursera" />
       <option name="PROGRAM_PARAMETERS" value="IntNumbers.txt" />
       <method v="2" />
@@ -65,7 +70,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Week2.Stack.StackOfStrings_FixedCapacity_Generic" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Week2.Generic.StackOfStrings_FixedCapacity_Generic" />
+      <option name="MAIN_CLASS_NAME" value="Week2.Generic.StackOfStrings_FixedCapacityArray_Generic" />
       <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
