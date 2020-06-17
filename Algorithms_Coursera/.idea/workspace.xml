@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eeb675b-4f05-47ba-b756-8bc476e68aaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Week2/Generic/StackOfStrings_ResizingArray_Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/Iterators/Iterable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/Iterators/StackWithIterator_ResizingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Iterator/BagWithIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/Generic/StackOfStrings_FixedCapacityArray_Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Generic/StackOfStrings_FixedCapacityArray_Generic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/Iterators/StackWithIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Iterators/StackWithIterator_LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/Stack/StackOfStrings_FixedCapacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Stack/StackOfStrings_FixedCapacityArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/Stack/StackOfStrings_Resizing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Stack/StackOfStrings_ResizingArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Week2.Iterators.StackWithIterator_ResizingArray">
+  <component name="RunManager" selected="Application.Week2.Iterator.BagWithIterator">
     <configuration name="Week1_UnionFind.ThreeSum.ThreeSum" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Week1.ThreeSum.ThreeSum" />
       <module name="Algorithms_Coursera" />
@@ -66,13 +60,18 @@
       <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
+    <configuration name="Week2.Iterator.BagWithIterator" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week2.Iterator.BagWithIterator" />
+      <module name="Algorithms_Coursera" />
+      <method v="2" />
+    </configuration>
     <configuration name="Week2.Iterators.StackWithIterator" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Week2.Iterators.StackWithIterator_LinkedList" />
+      <option name="MAIN_CLASS_NAME" value="Week2.Iterator.StackWithIterator_LinkedList" />
       <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
     <configuration name="Week2.Iterators.StackWithIterator_ResizingArray" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Week2.Iterators.StackWithIterator_ResizingArray" />
+      <option name="MAIN_CLASS_NAME" value="Week2.Iterator.StackWithIterator_ResizingArray" />
       <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
