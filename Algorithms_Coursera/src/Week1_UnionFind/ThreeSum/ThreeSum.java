@@ -22,7 +22,7 @@ public class ThreeSum {
     }
 
     public static void main(String[] args) {
-        int[] a = In.readInts(args[0]);
+        int[] a = In.readInts(args[0]); // input the txt file name
 
         Stopwatch stopwatch = new Stopwatch();
         StdOut.println(count(a));
