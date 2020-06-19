@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eeb675b-4f05-47ba-b756-8bc476e68aaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Week2/Iterator/BagWithIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Stack/twoStackDijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.idea/dictionaries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.lift/algs4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.lift/checkstyle-coursera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.lift/checkstyle-lift.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.lift/checkstyle-suppressions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/.lift/spotbugs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/02_Queues.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/src/Deque/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/src/Deque/Iterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/src/RandomizedQueue/Iterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/src/RandomizedQueue/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/src/RandomizedQueue/RandomizedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment_Coursera/02_Queues/src/RandomizedQueue/distinct.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/QuickFindUF/QuickFindUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/QuickFindUF/QuickFindUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Generic/StackOfStrings_FixedCapacityArray_Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Generic/StackFixedCapacityArray_Generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Generic/StackOfStrings_LinkedList_Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Generic/StackLinkedList_Generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Generic/StackOfStrings_ResizingArray_Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Generic/StackResizingArray_Generic.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Week2.Iterator.BagWithIterator">
+  <component name="RunManager" selected="Application.Week2.Generic.StackOfStrings_ResizingArray_Generic">
     <configuration name="Week1_UnionFind.ThreeSum.ThreeSum" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Week1.ThreeSum.ThreeSum" />
       <module name="Algorithms_Coursera" />
@@ -56,7 +83,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Week2.Generic.StackOfStrings_ResizingArray_Generic" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Week2.Generic.StackOfStrings_ResizingArray_Generic" />
+      <option name="MAIN_CLASS_NAME" value="Week2.Generic.StackResizingArray_Generic" />
       <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
@@ -91,17 +118,22 @@
       <method v="2" />
     </configuration>
     <configuration name="Week2.Stack.StackOfStrings_FixedCapacity_Generic" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Week2.Generic.StackOfStrings_FixedCapacityArray_Generic" />
+      <option name="MAIN_CLASS_NAME" value="Week2.Generic.StackFixedCapacityArray_Generic" />
       <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
     <configuration name="Week2.Stack.StackOfStrings_LinkedList_Generic" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Week2.Generic.StackOfStrings_LinkedList_Generic" />
+      <option name="MAIN_CLASS_NAME" value="Week2.Generic.StackLinkedList_Generic" />
       <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
     <configuration name="Week2.Stack.StackOfStrings_Resizing" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Week2.Stack.StackOfStrings_ResizingArray" />
+      <module name="Algorithms_Coursera" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week2.Stack.twoStackDijkstra" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week2.Stack.twoStackDijkstra" />
       <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
@@ -114,7 +146,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -124,6 +158,7 @@
     <MESSAGE value="stack" />
     <MESSAGE value="stack queue generic" />
     <MESSAGE value="iterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterator" />
+    <MESSAGE value="bag with iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="bag with iterator" />
   </component>
 </project>

@@ -3,12 +3,12 @@ package Week2.Generic;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class StackOfStrings_FixedCapacityArray_Generic<Item> {
+public class StackFixedCapacityArray_Generic<Item> {
     // init array refer
     private Item[] s;
     private int N = 0;      // current index
 
-    public StackOfStrings_FixedCapacityArray_Generic(int capacity) {
+    public StackFixedCapacityArray_Generic(int capacity) {
         s = (Item[]) new Object[capacity];
     }
 
@@ -25,7 +25,7 @@ public class StackOfStrings_FixedCapacityArray_Generic<Item> {
     }
 
     public static void main(String[] args) {
-        StackOfStrings_FixedCapacityArray_Generic stack = new StackOfStrings_FixedCapacityArray_Generic(10);
+        StackFixedCapacityArray_Generic stack = new StackFixedCapacityArray_Generic(10);
 
         while (!StdIn.isEmpty()) {
             String s = StdIn.readString();

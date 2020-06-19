@@ -1,5 +1,12 @@
 package Week1.QuickFindUF;
 
+/*
+quick find
+
+connected(p,q)  //determine whether the two nodes are connected or not
+union(p, q)     //union two nodes
+ */
+
 public class QuickFindUF {
     private int[] id;
 

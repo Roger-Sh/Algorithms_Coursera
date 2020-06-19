@@ -6,7 +6,7 @@ LIFO
 
  */
 
-public class StackOfStrings_LinkedList_Generic<Item> {
+public class StackLinkedList_Generic<Item> {
 
     // init first Node = null
     private Node first = null;
@@ -51,7 +51,7 @@ public class StackOfStrings_LinkedList_Generic<Item> {
 
     public static void main(String[] args) {
 
-        StackOfStrings_LinkedList_Generic<Phone> stack = new StackOfStrings_LinkedList_Generic();
+        StackLinkedList_Generic<Phone> stack = new StackLinkedList_Generic();
         System.out.println("is empty? " + stack.isEmpty());
 
         Phone p1 = new Phone("Apple", 5999, "Black");

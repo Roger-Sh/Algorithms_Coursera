@@ -15,12 +15,12 @@ Resizing-array, when out of capacity, double the size and copy the old data
 
  */
 
-public class StackOfStrings_ResizingArray_Generic<Item> {
+public class StackResizingArray_Generic<Item> {
     // init array
     private Item[] s;
     private int N = 0;      // current index
 
-    public StackOfStrings_ResizingArray_Generic() {
+    public StackResizingArray_Generic() {
         s = (Item[]) new Object[1];
     }
 
@@ -55,7 +55,7 @@ public class StackOfStrings_ResizingArray_Generic<Item> {
     }
 
     public static void main(String[] args) {
-        StackOfStrings_ResizingArray_Generic stack = new StackOfStrings_ResizingArray_Generic();
+        StackResizingArray_Generic stack = new StackResizingArray_Generic();
 
         while (!StdIn.isEmpty()) {
             String s = StdIn.readString();
