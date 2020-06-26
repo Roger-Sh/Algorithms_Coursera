@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eeb675b-4f05-47ba-b756-8bc476e68aaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Week2/ElementarySort/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/ElementarySort/SortExperiment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/word3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +54,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Week2.Queue.Deque">
+  <component name="RunManager" selected="Application.Date">
+    <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.ElementarySort.Date" />
+      <module name="Algorithms_Coursera" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2.ElementarySort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
+    </configuration>
     <configuration name="Week1_UnionFind.ThreeSum.ThreeSum" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Week1.ThreeSum.ThreeSum" />
       <module name="Algorithms_Coursera" />
       <option name="PROGRAM_PARAMETERS" value="IntNumbers.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week2.ElementarySort.StringSorter" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week2.ElementarySort.SortExperiment" />
+      <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
     <configuration name="Week2.Generic.StackOfStrings_ResizingArray_Generic" type="Application" factoryName="Application">
@@ -122,6 +140,11 @@
     <configuration default="true" type="Application" factoryName="Application">
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Date" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -142,6 +165,7 @@
     <MESSAGE value="stack queue generic" />
     <MESSAGE value="iterator" />
     <MESSAGE value="bag with iterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="bag with iterator" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
