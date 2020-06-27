@@ -2,6 +2,14 @@ package Week2.ElementarySort;
 
 import edu.princeton.cs.algs4.StdOut;
 
+/*
+cost:
+    N^2/4 compares
+    N^2/4 exchanges
+
+ */
+
+
 public class InsertionSort {
     // insertion sort,
     // iterate from left to right,

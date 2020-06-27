@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eeb675b-4f05-47ba-b756-8bc476e68aaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Week2/ElementarySort/DateSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/ElementarySort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/ElementarySort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/ElementarySort/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/ElementarySort/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/ElementarySort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/ElementarySort/InsertionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,6 +179,7 @@
     <MESSAGE value="bag with iterator" />
     <MESSAGE value="update" />
     <MESSAGE value="comparable" />
-    <option name="LAST_COMMIT_MESSAGE" value="comparable" />
+    <MESSAGE value="insertion sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="insertion sort" />
   </component>
 </project>
