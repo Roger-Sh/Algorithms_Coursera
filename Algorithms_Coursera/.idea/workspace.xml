@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eeb675b-4f05-47ba-b756-8bc476e68aaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Week2/ElementarySort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week2/ElementarySort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/ElementarySort/InsertionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Week2.ElementarySort.InsertionSort">
+  <component name="RunManager" selected="Application.Week2.ElementarySort.ShellSort">
     <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week2.ElementarySort.Date" />
       <module name="Algorithms_Coursera" />
@@ -81,6 +83,11 @@
     </configuration>
     <configuration name="Week2.ElementarySort.SelectionSort" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Week2.ElementarySort.SelectionSort" />
+      <module name="Algorithms_Coursera" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week2.ElementarySort.ShellSort" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week2.ElementarySort.ShellSort" />
       <module name="Algorithms_Coursera" />
       <method v="2" />
     </configuration>
