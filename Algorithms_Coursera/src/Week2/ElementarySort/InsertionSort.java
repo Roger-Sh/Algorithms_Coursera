@@ -18,7 +18,7 @@ public class InsertionSort {
     public static void sort(Comparable[] a) {
         int N = a.length;
         for (int i = 0; i < N; i++) {           // i move from left to right
-            for (int j = i; j > 0; j--) {   // j move from i to left
+            for (int j = i; j > 0; j--) {       // j move from i to left
                 if (less(a[j], a[j - 1]))
                     exch(a, j, j - 1);          // exchange the current element with its left bigger element
                 else break;                     // till there is only smaller elements on the left
