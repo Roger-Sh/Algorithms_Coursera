@@ -3,6 +3,13 @@ package Week3;
 import Week2.ElementarySort.Date;
 import edu.princeton.cs.algs4.StdOut;
 
+/*
+bottom up merge sort
+similar like merge sort, but doesn't need recursive implement
+
+ */
+
+
 public class BottomUpSort {
     private static Comparable[] aux;
 
