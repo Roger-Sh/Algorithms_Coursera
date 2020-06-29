@@ -6,22 +6,38 @@ import edu.princeton.cs.algs4.StdOut;
 /*
 Merge Sort
 Idea:
-    1. use insertion sort to sort the half array
-    2. merge the two half array
+    recursive do the following process
+    1. split the array
+    2. sort the half array
+    3. merge the two half array
+
+Cost:
+    N*lgN compares
+    6*N*lgN array access
+
  */
 
 public class MergeSort {
-    // insertion sort,
-    // iterate from left to right,
-    //      exchange current element i with left element, till there is no bigger element on the left
-    public static void sort(Comparable[] a, int lo, int hi) {
-        for (int i = lo + 1; i <= hi; i++) {           // i move from left to right
-            for (int j = i; j > lo; j--) {       // j move from i to left
-                if (less(a[j], a[j - 1]))
-                    exch(a, j, j - 1);          // exchange the current element with its left bigger element
-                else break;                     // till there is only smaller elements on the left
-            }
-        }
+    public static void sort(Comparable[] a) {
+        Comparable[] aux = new Comparable[a.length];
+        sort(a, aux, 0, a.length - 1);
+    }
+
+    private static void sort(Comparable[] a, Comparable[] aux, int lo, int hi) {
+        if (hi <= lo) return; // end of the sort
+
+        // sort the half array
+        int mid = lo + (hi - lo) / 2;
+
+        // recursive sort the half array and merge them
+        sort(a, aux, lo, mid);      // switch aux and a to save a little time
+        sort(a, aux, mid + 1, hi);
+
+        // check if this two half array are already sorted
+        if (!less(a[mid + 1], a[mid])) return;  // if a[mid+1] > a[mid], there is no need to merge them
+
+        // merge the sorted half array
+        merge(a, aux, lo, mid, hi);
     }
 
     private static void merge(Comparable[] a, Comparable[] aux, int lo, int mid, int hi) {
@@ -36,7 +52,7 @@ public class MergeSort {
 
         // merge
         int i = lo, j = mid + 1;
-        for (int k = lo; k <= mid + 1; k++) {
+        for (int k = lo; k <= hi; k++) {
             if (i > mid) {                      // i finished
                 a[k] = aux[j++];
             } else if (j > hi) {                // j finished
@@ -57,13 +73,6 @@ public class MergeSort {
         return v.compareTo(w) < 0;
     }
 
-    // exchange the two object in array a
-    private static void exch(Comparable[] a, int i, int j) {
-        Comparable swap = a[i];
-        a[i] = a[j];
-        a[j] = swap;
-    }
-
     // check if array[lo,..., hi] is sorted
     private static boolean isSorted(Comparable[] a, int lo, int hi) {
         for (int i = lo + 1; i <= hi; i++) {
@@ -81,30 +90,17 @@ public class MergeSort {
         Date day4 = new Date(12, 01, 1995);
         Date day5 = new Date(5, 28, 1993);
         Date day6 = new Date(6, 26, 2020);
-        Date[] days = {day1, day2, day3, day4, day5, day6};
+        Date day7 = new Date(12, 01, 1953);
+        Date day8 = new Date(5, 28, 1968);
+        Date day9 = new Date(6, 26, 2021);
+        Date[] days = {day1, day2, day3, day4, day5, day6, day7, day8, day9};
 
-        // split the array in two half array
-        int N = days.length;    // length
-        int mid = N / 2 - 1;    // middle position
-        int lo = 0;             // start position
-        int hi = N - 1;         // end position
-
-        // sort the half array
-        sort(days, lo, mid);
-        sort(days, mid + 1, hi);
+        // merge sort
+        MergeSort.sort(days);
 
         for (int i = 0; i < days.length; i++) {
             StdOut.println(days[i].year + "_" + days[i].month + "_" + days[i].day);
         }
-        StdOut.println("This array is half sorted? " + MergeSort.isSorted(days, lo, hi));
-
-        // merge the half sorted array
-        Date[] days_aux = new Date[N];
-        MergeSort.merge(days, days_aux, lo, mid, hi);
-
-        for (int i = 0; i < days.length; i++) {
-            StdOut.println(days[i].year + "_" + days[i].month + "_" + days[i].day);
-        }
-        StdOut.println("This array is sorted? " + MergeSort.isSorted(days, lo, hi));
+        StdOut.println("This array is sorted? " + MergeSort.isSorted(days, 0, days.length - 1));
     }
 }
