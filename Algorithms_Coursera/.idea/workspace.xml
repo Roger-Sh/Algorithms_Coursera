@@ -48,7 +48,12 @@
       <recent name="Week2.Stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.BottomUpSort">
+    <configuration name="BottomUpSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week3.BottomUpSort" />
+      <module name="Algorithms_Coursera" />
+      <method v="2" />
+    </configuration>
     <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week2.ElementarySort.Date" />
       <module name="Algorithms_Coursera" />
@@ -166,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BottomUpSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Shuffling" />
         <item itemvalue="Application.Date" />
@@ -197,22 +203,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="shellsort" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1430" height="135" key="GridCell.Tab.0.bottom" timestamp="1593452064774">
+    <state width="1430" height="135" key="GridCell.Tab.0.bottom" timestamp="1593453607864">
       <screen x="72" y="0" width="1428" height="1000" />
     </state>
-    <state width="1430" height="135" key="GridCell.Tab.0.bottom/72.0.1428.1000@72.0.1428.1000" timestamp="1593452064774" />
-    <state width="1430" height="135" key="GridCell.Tab.0.center" timestamp="1593452064773">
+    <state width="1430" height="135" key="GridCell.Tab.0.bottom/72.0.1428.1000@72.0.1428.1000" timestamp="1593453607864" />
+    <state width="1430" height="135" key="GridCell.Tab.0.center" timestamp="1593453607864">
       <screen x="72" y="0" width="1428" height="1000" />
     </state>
-    <state width="1430" height="135" key="GridCell.Tab.0.center/72.0.1428.1000@72.0.1428.1000" timestamp="1593452064773" />
-    <state width="1430" height="135" key="GridCell.Tab.0.left" timestamp="1593452064773">
+    <state width="1430" height="135" key="GridCell.Tab.0.center/72.0.1428.1000@72.0.1428.1000" timestamp="1593453607864" />
+    <state width="1430" height="135" key="GridCell.Tab.0.left" timestamp="1593453607864">
       <screen x="72" y="0" width="1428" height="1000" />
     </state>
-    <state width="1430" height="135" key="GridCell.Tab.0.left/72.0.1428.1000@72.0.1428.1000" timestamp="1593452064773" />
-    <state width="1430" height="135" key="GridCell.Tab.0.right" timestamp="1593452064773">
+    <state width="1430" height="135" key="GridCell.Tab.0.left/72.0.1428.1000@72.0.1428.1000" timestamp="1593453607864" />
+    <state width="1430" height="135" key="GridCell.Tab.0.right" timestamp="1593453607864">
       <screen x="72" y="0" width="1428" height="1000" />
     </state>
-    <state width="1430" height="135" key="GridCell.Tab.0.right/72.0.1428.1000@72.0.1428.1000" timestamp="1593452064773" />
+    <state width="1430" height="135" key="GridCell.Tab.0.right/72.0.1428.1000@72.0.1428.1000" timestamp="1593453607864" />
     <state width="1430" height="352" key="GridCell.Tab.1.bottom" timestamp="1593377629579">
       <screen x="72" y="0" width="1428" height="1000" />
     </state>
